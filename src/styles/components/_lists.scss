@@ -1,0 +1,37 @@
+.container {
+	height: calc(100% - 60px);
+	width: 100%;
+    display: flex;
+	overflow-x: scroll;
+
+    .title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .line {
+		height: 100%;
+        width: 1px;
+        color: black;
+        background-color: black;
+    }
+
+    .list_container {
+		width: 50% ;
+    }
+
+    .list {
+        padding: 0.5rem 1rem;
+
+        strong {
+            margin-right: 10px;
+        }
+
+        input {
+            border: none;
+		}
+		input:focus{
+			outline: 2px solid #6495ED;
+		}
+    }
+}
